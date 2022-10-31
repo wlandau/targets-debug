@@ -89,6 +89,9 @@ future::value(f)
 # and just work with the custom R code?
 
 # Load functions, other globals, and packages.
+rm(list = ls())
+rstudioapi::restartSession()
+library(targets)
 print(ls())
 suppressMessages(tar_load_globals())
 print(ls())
@@ -106,6 +109,6 @@ analyze_data(random_data)
 anyNA(dataset1$outcome)
 
 # Try again.
-keep_units <- unique(data$unit[!is.na(data$outcome)])
-filtered_data <- filter(data, unit %in% keep_units)
+keep_units <- unique(dataset1$unit[!is.na(dataset1$outcome)])
+filtered_data <- filter(dataset1, unit %in% keep_units)
 analyze_data(filtered_data) # Solved!

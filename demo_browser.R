@@ -31,7 +31,7 @@ tar_visnetwork()
 
 # After re-batching, make note of the first target that errors.
 tar_make()
-tar_errored() # "analysis_58_b59aa384"
+tar_errored() # note "analysis_58_b59aa384"
 
 # Set `debug = "analysis_58_b59aa384"` in tar_option_set().
 file.copy("pipelines/browser_debug.R", "_targets.R", overwrite = TRUE)
@@ -42,7 +42,8 @@ rstudioapi::restartSession() # Remove detritus from the session.
 library(targets)
 tar_make(callr_function = NULL) # Drop into an interactive debugger.
 
-# In the interactive debugger, figure out why the target fails.
+# In the interactive debugger, go to where the error happened
+# and reproduce it.
 debug(analyze_data)
 c
 gls(
@@ -51,7 +52,11 @@ gls(
   correlation = corSymm(form = ~ measurement | unit),
   weights = varIdent(form = ~ 1 | measurement)
 )
+
+# Figure out why the error happened.
 anyNA(data$outcome)
+
+# Confirm the solution works.
 keep_units <- unique(data$unit[!is.na(data$outcome)])
 filtered_data <- filter(data, unit %in% keep_units)
 gls(

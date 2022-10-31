@@ -27,11 +27,12 @@ print(digest::digest(.Random.seed)) # state of the random number generator
 tar_workspace(analysis_02de2921)
 
 # After loading the workspace:
-print(search())
-print(ls())
-print(digest::digest(.Random.seed))
+print(search()) # More packages loaded.
+print(ls()) # Functions and data are in the environment.
+print(digest::digest(.Random.seed)) # The target's seed is set.
 
-# Reproduce that error.
+# Reproduce the error in the local interactive R session
+# outside the pipeline.
 analyze_data(data)
 
 # Diagnose the bug.
