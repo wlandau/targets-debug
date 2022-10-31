@@ -111,7 +111,7 @@ knitr::opts_chunk$set(
 
 ## Debugging: techniques
 
-* Finish the pipeline despite the errors.
+* Finish the pipeline anyway.
 * Inspect error messages.
 * Debug functions.
 * Check for system issues.
@@ -122,3 +122,4 @@ knitr::opts_chunk$set(
 ## Live demo
 
 * Code: <https://github.com/wlandau/targets-debug>
+* Follow `demo.R`.
