@@ -1,0 +1,124 @@
+---
+format:
+   revealjs:
+     slide-number: true
+     footer: "&copy; 2022 Eli Lilly and Company"
+     view-distance: 100
+     mobile-view-distance: 100
+---
+
+##
+
+```{r, include = FALSE, echo = FALSE}
+set.seed(0)
+suppressPackageStartupMessages({
+  library(targets)
+})
+knitr::opts_chunk$set(
+  cache = FALSE,
+  comment = "#>",
+  fig.width = 10, 
+  fig.height = 5
+)
+```
+
+<style>
+.reveal .tiny {
+  display: inline-block;
+  font-size: 0.5em;
+  line-height: 1.0em;
+  vertical-align: top;
+}
+.reveal .medium {
+  display: inline-block;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  vertical-align: top;
+}
+</style>
+
+<center>
+<br>
+<h3>Debugging `targets` pipelines</h3>
+<img src="./images/logo.png" height="400px">
+<br>
+<h4>Will Landau</h4>
+</center>
+
+## Why `targets`? {.smaller}
+
+* Manage computationally demanding work in R:
+    * **Bayesian data analysis: JAGS, Stan, NIMBLE, `greta`**
+    * Deep learning: `keras`, `tensorflow`, `torch`
+    * Machine learning: `tidymodels`
+    * PK/PD: `nlmixr`, `mrgsolve`
+    * Clinical trial simulation: `rpact`, `Mediana`
+    * Statistical genomics
+    * Social network analysis
+    * Permutation tests
+    * Database queries: `DBI`
+    * Big data ETL
+
+## Typical notebook-based project
+
+![](./images/notebook-start.png)
+
+## Messy reality: managing data
+
+![](./images/notebook-end.png)
+
+## Messy reality: managing change
+
+![](./images/notebook-dilemma.png)
+
+## Pipeline tools {.smaller}
+
+![](./images/pipeline_graph.png)
+
+* Orchestrate moving parts.
+* Scale the computation.
+* Manage output data.
+
+## `targets` {.smaller}
+
+![](./images/logo-tweet.png)
+
+* Designed for R.
+* Encourages good programming habits.
+* Automatic dependency detection.
+* Behind-the-scenes data management.
+* Distributed computing.
+
+## Resources {.smaller}
+
+* Get started in four minutes: <https://vimeo.com/700982360>
+* Example project: <https://github.com/wlandau/targets-four-minutes>
+* Documentation website: <https://docs.ropensci.org/targets/>
+* User manual: <https://books.ropensci.org/targets/>
+* **Debugging guide**: <https://books.ropensci.org/targets/debugging.html>
+
+[![](./images/video.png)](https://vimeo.com/700982360)
+
+## Debugging: challenges
+
+* R code is easiest to debug in the interactive console.
+* To ensure reproducibility and to manage heavy computation, a pipeline is automated and non-interactive.
+    * External [`callr::r()`](https://callr.r-lib.org) process
+    * Data management
+    * Environment management
+    * High-performance computing
+    * Error handling
+
+## Debugging: techniques
+
+* Finish the pipeline despite the errors.
+* Inspect error messages.
+* Debug functions.
+* Check for system issues.
+* Pause the pipeline with `browser()`.
+* Pause the pipeline with the `targets` `debug` option.
+* Save a `targets` workspace.
+
+## Live demo
+
+* Code: <https://github.com/wlandau/targets-debug>
