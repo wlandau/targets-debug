@@ -1,3 +1,4 @@
+rstudioapi::restartSession()
 library(targets)
 tar_destroy()
 
@@ -51,10 +52,11 @@ gls(
   weights = varIdent(form = ~ 1 | measurement)
 )
 anyNA(data$outcome)
-data_filtered <- filter(data, !is.na(outcome))
+keep_units <- unique(data$unit[!is.na(data$outcome)])
+filtered_data <- filter(data, unit %in% keep_units)
 gls(
   model = outcome ~ factor,
-  data = data_filtered,
+  data = filtered_data,
   correlation = corSymm(form = ~ measurement | unit),
   weights = varIdent(form = ~ 1 | measurement)
 ) %>%

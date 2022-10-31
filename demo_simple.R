@@ -1,3 +1,4 @@
+rstudioapi::restartSession()
 library(targets)
 tar_destroy()
 
@@ -105,5 +106,6 @@ analyze_data(random_data)
 anyNA(dataset1$outcome)
 
 # Try again.
-filtered_data <- filter(dataset1, !is.na(outcome))
+keep_units <- unique(data$unit[!is.na(data$outcome)])
+filtered_data <- filter(data, unit %in% keep_units)
 analyze_data(filtered_data) # Solved!
