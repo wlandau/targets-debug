@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.2.1",
+  "metadata": {
+    "appmode": "static",
+    "primary_rmd": null,
+    "primary_html": "slides/index.html",
+    "content_category": "site",
+    "has_parameters": false
+  },
+  "packages": null,
+  "files": {
+    "slides/images/dilemma.png": {
+      "checksum": "dfcf257bced647138434d6ffaafae5e4"
+    },
+    "slides/images/gittargets.png": {
+      "checksum": "4c1929b9c57cce14c2a4b96a270cb6e8"
+    },
+    "slides/images/images.pptx": {
+      "checksum": "533bba9ee5b93d2d038d9f92029f8fc2"
+    },
+    "slides/images/infographic.png": {
+      "checksum": "08b103d4c825ea9a80798b765ebdc20d"
+    },
+    "slides/images/logo-tweet.png": {
+      "checksum": "baabb47dae77d02628f43f03b3fe0b12"
+    },
+    "slides/images/logo.png": {
+      "checksum": "5346ed955faa6a799c85d40b679cd033"
+    },
+    "slides/images/notebook-dilemma.png": {
+      "checksum": "f14cdc82903ba0ee026b3b44517e9c8d"
+    },
+    "slides/images/notebook-end.png": {
+      "checksum": "96f2773cf1c48486b67f42a59eed169d"
+    },
+    "slides/images/notebook-start.png": {
+      "checksum": "1897a96fec7992f8cd2bb7be6cdce319"
+    },
+    "slides/images/pipeline_graph.png": {
+      "checksum": "9fb17a94c868b8bb2f313ca108619484"
+    },
+    "slides/images/plot.png": {
+      "checksum": "f833e443fbc3ada6a9ecf28570bd1790"
+    },
+    "slides/images/plot2.png": {
+      "checksum": "205a414e5b6a82b7a28de36af3236512"
+    },
+    "slides/images/report.png": {
+      "checksum": "2608042ee70b01a7e634cc3093648bf3"
+    },
+    "slides/images/scale.png": {
+      "checksum": "de525b88fb90e0984ed3a99469fea7e2"
+    },
+    "slides/images/snapshot-model-git.png": {
+      "checksum": "b9ecd63a6f01413de277d119f3d84fdb"
+    },
+    "slides/images/stantargets.png": {
+      "checksum": "f23ac56b3752bb4119683245b43fecf8"
+    },
+    "slides/images/targetopia.png": {
+      "checksum": "58e5971c21ae9c4762508de9e3616d4b"
+    },
+    "slides/images/targets.png": {
+      "checksum": "5346ed955faa6a799c85d40b679cd033"
+    },
+    "slides/images/tooltypes.png": {
+      "checksum": "223f62bb5ba9b13639e654d410fb4900"
+    },
+    "slides/images/tradeoffs.png": {
+      "checksum": "219110de9e24eac67a4509ac1b49f297"
+    },
+    "slides/images/tweet.png": {
+      "checksum": "64362234615496631ae6885a2ce30d1d"
+    },
+    "slides/images/video.png": {
+      "checksum": "2c4a15f38e309e4d18faabccb02460a5"
+    },
+    "slides/index_files/header-attrs-2.11/header-attrs.js": {
+      "checksum": "9c32b58ed5fd8fe2efbd5bd7023cdef0"
+    },
+    "slides/index_files/header-attrs-2.13/header-attrs.js": {
+      "checksum": "9c32b58ed5fd8fe2efbd5bd7023cdef0"
+    },
+    "slides/index_files/header-attrs-2.14/header-attrs.js": {
+      "checksum": "9c32b58ed5fd8fe2efbd5bd7023cdef0"
+    },
+    "slides/index_files/libs/clipboard/clipboard.min.js": {
+      "checksum": "ad98572d415d2f2452845a6068a913c0"
+    },
+    "slides/index_files/libs/quarto-diagram/mermaid-init.js": {
+      "checksum": "a50b1905ad4aae48da6d2b6c1baa0f33"
+    },
+    "slides/index_files/libs/quarto-diagram/mermaid.css": {
+      "checksum": "0aeecd8a816e25e43a41943c6146c2b7"
+    },
+    "slides/index_files/libs/quarto-diagram/mermaid.min.js": {
+      "checksum": "39d86f31f283d9b1ae19d604102bda48"
+    },
+    "slides/index_files/libs/quarto-html/popper.min.js": {
+      "checksum": "ad6c106f3ba17d5a54d8053a4c4899ca"
+    },
+    "slides/index_files/libs/quarto-html/quarto-html.min.css": {
+      "checksum": "36a22d97e1327a96543d5593f276430f"
+    },
+    "slides/index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css": {
+      "checksum": "799acb5feaa2e77d756939dfd4a660fe"
+    },
+    "slides/index_files/libs/quarto-html/quarto-syntax-highlighting.css": {
+      "checksum": "7f3892b3064bdde37d661dbe123a90fe"
+    },
+    "slides/index_files/libs/quarto-html/tabby.min.js": {
+      "checksum": "c4219bb6375131a945d7e4bfc49c5f35"
+    },
+    "slides/index_files/libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "slides/index_files/libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    },
+    "slides/index_files/libs/revealjs/dist/reset.css": {
+      "checksum": "4042c1a43777d540673cabc97cec67b2"
+    },
+    "slides/index_files/libs/revealjs/dist/reveal.css": {
+      "checksum": "ad5c4e1b5f4d999751338b130a74f46d"
+    },
+    "slides/index_files/libs/revealjs/dist/reveal.esm.js": {
+      "checksum": "ce6dd9d092cad5107166def6ba62c19d"
+    },
+    "slides/index_files/libs/revealjs/dist/reveal.esm.js.map": {
+      "checksum": "5b639bf74f76448785ea83af2d7cf264"
+    },
+    "slides/index_files/libs/revealjs/dist/reveal.js": {
+      "checksum": "2d2dcb56bf7e0de2b2b8355f8e6444c4"
+    },
+    "slides/index_files/libs/revealjs/dist/reveal.js.map": {
+      "checksum": "4edbed8bd432b54ad5004381899aa9f8"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.css": {
+      "checksum": "488966d15e97f072801d7e348f4b5141"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.eot": {
+      "checksum": "9900a4643cc63c5d8f969d2196f72572"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.ttf": {
+      "checksum": "91295fa87df918411b49b7531da5d558"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/league-gothic/league-gothic.woff": {
+      "checksum": "cd382dc8a9d6317864b5810a320effc5"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/league-gothic/LICENSE": {
+      "checksum": "8fac5842e2f5a2e6bc067f5beb5035c9"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/LICENSE": {
+      "checksum": "8ea3e41b02e9f465515dad7c89459c5b"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot": {
+      "checksum": "72217712eb8d28872e7069322f3fda23"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.ttf": {
+      "checksum": "8256cfd7e4017a7690814879409212cd"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.woff": {
+      "checksum": "e74f0128884561828ce8c9cf5c284ab8"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.eot": {
+      "checksum": "1d71438462d532b62b05cdd7e6d7197d"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.ttf": {
+      "checksum": "2da39ecf9246383937da11b44b7bd9b4"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-regular.woff": {
+      "checksum": "e7acc589bb558fe58936a853f570193c"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot": {
+      "checksum": "0f3da1edf1b5c6a94a6ad948a7664451"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.ttf": {
+      "checksum": "f3565095e6c9158140444970f5a2c5ed"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff": {
+      "checksum": "1cb8e94f1185f1131a0c895165998f2b"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.eot": {
+      "checksum": "58153ac7194e141d1e73ea88c6b63861"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.ttf": {
+      "checksum": "c7e698a4d0956f4a939f42a05685bbf5"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff": {
+      "checksum": "6b058fc2634b01d837c3432316c3141f"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/fonts/source-sans-pro/source-sans-pro.css": {
+      "checksum": "b4b58710f05264a4011912211d0a9eed"
+    },
+    "slides/index_files/libs/revealjs/dist/theme/quarto.css": {
+      "checksum": "1fd2f22d2f88c4c7925623d77cd27be5"
+    },
+    "slides/index_files/libs/revealjs/plugin/highlight/highlight.esm.js": {
+      "checksum": "5abbd1f8ee249ae0d6c80408d2081dbb"
+    },
+    "slides/index_files/libs/revealjs/plugin/highlight/highlight.js": {
+      "checksum": "e42092622b9ca4e1de619e58c9aa5335"
+    },
+    "slides/index_files/libs/revealjs/plugin/highlight/monokai.css": {
+      "checksum": "8c43a819e1268fc57605f500adff816b"
+    },
+    "slides/index_files/libs/revealjs/plugin/highlight/plugin.js": {
+      "checksum": "254bffbbb3e35bb3eb837b7067b48a0a"
+    },
+    "slides/index_files/libs/revealjs/plugin/highlight/zenburn.css": {
+      "checksum": "28d5b9497037a12cb5a15644fea2f1c3"
+    },
+    "slides/index_files/libs/revealjs/plugin/markdown/markdown.esm.js": {
+      "checksum": "d814738a9f2a6222a86c6b81587977fe"
+    },
+    "slides/index_files/libs/revealjs/plugin/markdown/markdown.js": {
+      "checksum": "beca972800b78dcd5c0f1bafa6969425"
+    },
+    "slides/index_files/libs/revealjs/plugin/markdown/plugin.js": {
+      "checksum": "8749b50458240bb8a1d20565a40e10cc"
+    },
+    "slides/index_files/libs/revealjs/plugin/math/katex.js": {
+      "checksum": "2a22abd1eb5a1c923f2d41178427715a"
+    },
+    "slides/index_files/libs/revealjs/plugin/math/math.esm.js": {
+      "checksum": "13ea5819c2a776814ebd48458441acc6"
+    },
+    "slides/index_files/libs/revealjs/plugin/math/math.js": {
+      "checksum": "20c15f84b9af6e1e481f22a7a63dae5e"
+    },
+    "slides/index_files/libs/revealjs/plugin/math/mathjax2.js": {
+      "checksum": "c1ea64afa05c3677d2c404755193b2be"
+    },
+    "slides/index_files/libs/revealjs/plugin/math/mathjax3.js": {
+      "checksum": "2bcbd2618ed53d6cf8b9c739074d2050"
+    },
+    "slides/index_files/libs/revealjs/plugin/math/plugin.js": {
+      "checksum": "ec9cb99b85a8026d24b26526f6effe0d"
+    },
+    "slides/index_files/libs/revealjs/plugin/notes/notes.esm.js": {
+      "checksum": "b2f03f7cb914338eff1e2e1fcda82e0a"
+    },
+    "slides/index_files/libs/revealjs/plugin/notes/notes.js": {
+      "checksum": "c01a93b635bae2e4cd98b30b736aa43b"
+    },
+    "slides/index_files/libs/revealjs/plugin/notes/plugin.js": {
+      "checksum": "49924c937e252f47ac915f643e01ec43"
+    },
+    "slides/index_files/libs/revealjs/plugin/notes/speaker-view.html": {
+      "checksum": "1599c3637c3db09d47992d53891f7e08"
+    },
+    "slides/index_files/libs/revealjs/plugin/pdf-export/pdfexport.js": {
+      "checksum": "ffd4d01d9d43febdafbb8e23415940fd"
+    },
+    "slides/index_files/libs/revealjs/plugin/pdf-export/plugin.yml": {
+      "checksum": "76add7202812cd14a48ca57b96777de4"
+    },
+    "slides/index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css": {
+      "checksum": "4ba6b644b711bc2fc89389d78209da6d"
+    },
+    "slides/index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js": {
+      "checksum": "8fca014a07bf017f06860da3410b4430"
+    },
+    "slides/index_files/libs/revealjs/plugin/quarto-line-highlight/plugin.yml": {
+      "checksum": "4af9468c1cc516c6b54c12e686ba708f"
+    },
+    "slides/index_files/libs/revealjs/plugin/quarto-support/footer.css": {
+      "checksum": "50b9970483ad5fcebcdffd1c83c916ff"
+    },
+    "slides/index_files/libs/revealjs/plugin/quarto-support/plugin.yml": {
+      "checksum": "4f79b4a104bed30cd5b7b49d598bed88"
+    },
+    "slides/index_files/libs/revealjs/plugin/quarto-support/support.js": {
+      "checksum": "071073bd5bb93da150f3903556dc9fad"
+    },
+    "slides/index_files/libs/revealjs/plugin/reveal-menu/menu.css": {
+      "checksum": "1b9988f08dfe354c44e134304b3df8af"
+    },
+    "slides/index_files/libs/revealjs/plugin/reveal-menu/menu.js": {
+      "checksum": "8db4f7eb4ad5670e6be4bdf83c389ca2"
+    },
+    "slides/index_files/libs/revealjs/plugin/reveal-menu/plugin.yml": {
+      "checksum": "b949d3d3d5bdf5b5f508e6bfb328798e"
+    },
+    "slides/index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css": {
+      "checksum": "c8715037656f6595dbc3d9145fc7d8ac"
+    },
+    "slides/index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js": {
+      "checksum": "a467ecd3834a0d8ec633e3372c138adf"
+    },
+    "slides/index_files/libs/revealjs/plugin/search/plugin.js": {
+      "checksum": "032f7408cd38991c3bd861582dd6322d"
+    },
+    "slides/index_files/libs/revealjs/plugin/search/search.esm.js": {
+      "checksum": "5a4865036188db6309eec77fb9b9fd41"
+    },
+    "slides/index_files/libs/revealjs/plugin/search/search.js": {
+      "checksum": "1d91bc7e321fae581fb65f502ef4ecd0"
+    },
+    "slides/index_files/libs/revealjs/plugin/zoom/plugin.js": {
+      "checksum": "20eb10e380080e9f750ec77dedb76618"
+    },
+    "slides/index_files/libs/revealjs/plugin/zoom/zoom.esm.js": {
+      "checksum": "8e430e6444e4f75223fd407e59d20488"
+    },
+    "slides/index_files/libs/revealjs/plugin/zoom/zoom.js": {
+      "checksum": "b209a75b6c4cc6df8dd5383cf9b6ee22"
+    },
+    "slides/index_files/remark-css-0.0.1/default-fonts.css": {
+      "checksum": "3dcae1f613a817bfa7ad7e7748e1b0de"
+    },
+    "slides/index_files/remark-css-0.0.1/default.css": {
+      "checksum": "d281055e66f0af38b96060f223243952"
+    },
+    "slides/index.html": {
+      "checksum": "e8767f83bc1186dc1cd6e99cf4c51fb1"
+    },
+    "slides/index.qmd": {
+      "checksum": "386ad5e36f0b8849f450d90f6c326cd4"
+    }
+  },
+  "users": null
+}
