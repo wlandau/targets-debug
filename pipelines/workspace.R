@@ -1,6 +1,5 @@
 # _targets.R
 library(targets)
-library(tarchetypes)
 
 tar_option_set(
   packages = c("broom", "broom.mixed", "dplyr", "nlme", "tibble", "tidyr"),
