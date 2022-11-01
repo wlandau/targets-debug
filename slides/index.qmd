@@ -123,6 +123,6 @@ knitr::opts_chunk$set(
 
 * Code: <https://github.com/wlandau/targets-debug>
 * Follow the demos in order:
-    1. `demo_simple.R`
+    1. `demo_small.R`
     2. `demo_browser.R`
     3. `demo_workspace.R`

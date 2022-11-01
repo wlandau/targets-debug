@@ -3,7 +3,7 @@ library(targets)
 tar_destroy()
 
 # Write the target script.
-file.copy("pipelines/simple.R", "_targets.R", overwrite = TRUE)
+file.copy("pipelines/small.R", "_targets.R", overwrite = TRUE)
 
 # Look at the target script.
 tar_edit()
