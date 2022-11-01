@@ -18,6 +18,9 @@ tar_make()
 tar_workspaces() # "analysis_02de2921"
 file.size("_targets/workspaces/analysis_02de2921") # size in bytes (small file)
 
+# Get the traceback from the workspace.
+tar_traceback(analysis_02de2921)
+
 # Before loading the workspace:
 print(search()) # loadd packages
 print(ls()) # list of objects in the environment
