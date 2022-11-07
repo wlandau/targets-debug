@@ -33,7 +33,9 @@ tar_visnetwork()
 tar_make()
 tar_errored() # note "analysis_58_b59aa384"
 
-# Set `debug = "analysis_58_b59aa384"` in tar_option_set().
+# Set `debug = "analysis_58_b59aa384"`
+# and `cue = tar_cue(mode = "never")`
+# in tar_option_set().
 file.copy("pipelines/browser_debug.R", "_targets.R", overwrite = TRUE)
 tar_edit()
 

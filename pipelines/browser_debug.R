@@ -6,7 +6,8 @@ future::plan(future::multisession)
 
 tar_option_set(
   packages = c("broom", "broom.mixed", "dplyr", "nlme", "tibble", "tidyr"),
-  debug = "analysis_58_b59aa384" # Interactively debug one or more targets. 
+  debug = "analysis_58_b59aa384", # Interactively debug one or more targets.
+  cue = tar_cue(mode = "never") # Force skip non-debugging outdated targets.
 )
 
 simulate_data <- function(units) {
