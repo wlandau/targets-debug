@@ -24,7 +24,6 @@ tar_visnetwork() # The pipeline still has errors and is not up to date.
 # Make debugging easier:
 #   (1) Set 1 rep per batch.
 #   (2) Just run the `units = 58` scenario.
-# Finish anyway! Set `error = "null"` in tar_option_set().
 file.copy("pipelines/browser_rebatch.R", "_targets.R", overwrite = TRUE)
 tar_edit()
 tar_visnetwork()

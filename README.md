@@ -6,6 +6,6 @@ R code is easiest to debug when it is interactive. In the R console or [RStudio 
 
 The following R scripts walk through the debugging techniques discussed at <https://books.ropensci.org/targets/debugging.html>. To practice, step through the code files in the following order.
 
-1. `demo_simple.R`
+1. `demo_small.R`
 1. `demo_browser.R`
 1. `demo_workspace.R`
