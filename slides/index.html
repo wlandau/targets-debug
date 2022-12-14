@@ -406,6 +406,27 @@ Will Landau
 </ul>
 
 <img data-src="./images/video.png" class="r-stretch quarto-figure-center"></section>
+<section id="extensions-to-targets" class="slide level2 smaller">
+<h2>Extensions to {targets}</h2>
+
+<img data-src="./images/targetopia.png" class="r-stretch"><ul>
+<li>Ecosystem of packages to support literate programming, Bayesian data analysis, etc. in <code>targets</code>.</li>
+<li>Works well with other packages, such as <code>renv</code>, Quarto, R Markdown, Shiny, <code>pins</code>, and <code>vetiver</code>.</li>
+</ul>
+</section>
+<section id="live-demo" class="slide level2">
+<h2>Live demo</h2>
+<ul>
+<li>Code: <a href="https://github.com/wlandau/targets-four-minutes" class="uri">https://github.com/wlandau/targets-four-minutes</a></li>
+<li>Helpful practice:
+<ol type="1">
+<li>Start with <a href="https://github.com/wlandau/targets-four-minutes/blob/main/R/functions.R"><code>R/functions.R</code></a>.</li>
+<li>Start setting up a pipeline with <a href="https://docs.ropensci.org/targets/reference/use_targets.html"><code>use_targets()</code></a>.</li>
+<li>Customize the pipeline in <code>_targets.R</code>.</li>
+<li>Use <code>tar_visnetwork()</code>, <code>tar_make()</code>, etc. to use the pipeline.</li>
+</ol></li>
+</ul>
+</section>
 <section id="debugging-challenges" class="slide level2">
 <h2>Debugging: challenges</h2>
 <ul>
@@ -432,11 +453,11 @@ Will Landau
 <li>Save a <code>targets</code> workspace.</li>
 </ul>
 </section>
-<section id="live-demo" class="slide level2">
+<section id="live-demo-1" class="slide level2">
 <h2>Live demo</h2>
 <ul>
 <li>Code: <a href="https://github.com/wlandau/targets-debug" class="uri">https://github.com/wlandau/targets-debug</a></li>
-<li>Follow the demos in order:
+<li>Interactive tutorial scripts:
 <ol type="1">
 <li><code>demo_small.R</code></li>
 <li><code>demo_browser.R</code></li>
