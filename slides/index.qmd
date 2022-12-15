@@ -104,7 +104,7 @@ knitr::opts_chunk$set(
 ![](./images/targetopia.png)
 
 * Ecosystem of packages to support literate programming, Bayesian data analysis, etc. in `targets`.
-* Compatible with other tools such as `renv`, Quarto, R Markdown, Shiny, and `pins`.
+* Compatible with other tools such as `renv`, Quarto, R Markdown, Shiny, `pins`, and `vetiver`.
 
 ## Live demo
 
