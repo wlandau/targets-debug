@@ -110,7 +110,7 @@ knitr::opts_chunk$set(
 
 * Code: <https://github.com/wlandau/targets-four-minutes>
 * Helpful practice:
-    1. Start with [`R/functions.R`](https://github.com/wlandau/targets-four-minutes/blob/main/R/functions.R).
+    1. Get to know [`R/functions.R`](https://github.com/wlandau/targets-four-minutes/blob/main/R/functions.R).
     2. Start setting up a pipeline with [`use_targets()`](https://docs.ropensci.org/targets/reference/use_targets.html).
     3. Customize the pipeline in `_targets.R`.
     4. Use `tar_visnetwork()`, `tar_make()`, etc. to use the pipeline.
