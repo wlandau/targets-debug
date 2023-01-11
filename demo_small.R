@@ -30,9 +30,6 @@ tar_meta(name = dataset1, field = seed)
 tar_meta(name = model, field = seed)
 
 # Peel back layers to find more clues!
-# Try to reproduce it without {targets}.
-# Much easier to solve that way.
-
 # Can I reproduce the error without {clustermq}?
 tar_make() # same error
 
