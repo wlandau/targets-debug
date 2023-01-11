@@ -22,7 +22,7 @@ file.size("_targets/workspaces/analysis_02de2921") # size in bytes (small file)
 tar_traceback(analysis_02de2921)
 
 # Before loading the workspace:
-print(search()) # loadd packages
+print(search()) # load packages
 print(ls()) # list of objects in the environment
 print(digest::digest(.Random.seed)) # state of the random number generator
 
