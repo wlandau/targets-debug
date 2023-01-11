@@ -80,8 +80,6 @@ f <- future::future( # same error
 )
 future::value(f)
 
-# With these findings, you can debug the {targets} pipeline
-# Without working with {targets} at all.
 # What if we remove {targets}, {callr}, {clustermq}, and {future}
 # and just work with the custom R code?
 
