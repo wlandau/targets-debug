@@ -1,9 +1,6 @@
 library(targets)
 library(tarchetypes)
 
-options(clustermq.scheduler = "multiprocess")
-future::plan(future::multisession)
-
 tar_option_set(
   packages = c("broom", "broom.mixed", "dplyr", "nlme", "tibble", "tidyr"),
   debug = "analysis_58_b59aa384", # Interactively debug one or more targets.

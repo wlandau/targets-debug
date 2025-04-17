@@ -1,8 +1,5 @@
 library(targets)
 
-options(clustermq.scheduler = "multiprocess")
-future::plan(future::multisession)
-
 tar_option_set(
   packages = c("broom", "broom.mixed", "dplyr", "nlme", "tibble", "tidyr")
 )
@@ -24,6 +21,6 @@ analyze_data <- function(data) {
 }
 
 list(
-  tar_target(name = dataset1, command = simulate_data(100)),
-  tar_target(name = model, command = analyze_data(dataset1))
+  tar_target(name = data, command = simulate_data(100)),
+  tar_target(name = model, command = analyze_data(data))
 )
