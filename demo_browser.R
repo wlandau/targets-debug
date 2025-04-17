@@ -12,12 +12,12 @@ tar_edit()
 tar_visnetwork()
 
 # This pipeline has an error.
-tar_make_clustermq(workers = 2)
+tar_make()
 
 # Finish anyway! Set `error = "null"` in tar_option_set().
 file.copy("pipelines/browser_null.R", "_targets.R", overwrite = TRUE)
 tar_edit()
-tar_make_clustermq(workers = 2)
+tar_make()
 tar_read(analysis) # Just get the results that completed.
 tar_visnetwork() # The pipeline still has errors and is not up to date.
 
@@ -30,9 +30,9 @@ tar_visnetwork()
 
 # After re-batching, make note of the first target that errors.
 tar_make()
-tar_errored() # note "analysis_58_b59aa384"
+tar_errored() # note "analysis_58_8edfc70f9a7feaf4"
 
-# Set `debug = "analysis_58_b59aa384"`
+# Set `debug = "analysis_58_8edfc70f9a7feaf4"`
 # and `cue = tar_cue(mode = "never")`
 # in tar_option_set().
 file.copy("pipelines/browser_debug.R", "_targets.R", overwrite = TRUE)

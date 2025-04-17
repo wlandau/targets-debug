@@ -12,14 +12,14 @@ tar_edit()
 tar_visnetwork()
 
 # Try to run the pipeline.
-tar_make()
+tar_make() # Make note of the first errored target: analysis_9f60c6e05a6c5414
 
 # List available workspaces.
-tar_workspaces() # "analysis_02de2921"
-file.size("_targets/workspaces/analysis_02de2921") # size in bytes (small file)
+tar_workspaces() # "analysis_9f60c6e05a6c5414"
+file.size("_targets/workspaces/analysis_9f60c6e05a6c5414") # size in bytes (small file)
 
 # Get the traceback from the workspace.
-tar_traceback(analysis_02de2921)
+tar_traceback(analysis_9f60c6e05a6c5414)
 
 # Before loading the workspace:
 print(search()) # load packages
@@ -27,7 +27,7 @@ print(ls()) # list of objects in the environment
 print(digest::digest(.Random.seed)) # state of the random number generator
 
 # Load the workspace
-tar_workspace(analysis_02de2921)
+tar_workspace(analysis_9f60c6e05a6c5414)
 
 # After loading the workspace:
 print(search()) # More packages loaded.
