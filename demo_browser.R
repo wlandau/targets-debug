@@ -41,7 +41,12 @@ tar_edit()
 # Run the pipeline in the interactive session (disable the callr process).
 rstudioapi::restartSession() # Remove detritus from the session.
 library(targets)
-tar_make(callr_function = NULL) # Drop into an interactive debugger.
+# Drop into an interactive debugger.
+tar_make(
+  callr_function = NULL, # Do not run the pipline behind a callr::r() process.
+  use_crew = FALSE, # Disable parallel computing with crew (optional)
+  as_job = FALSE # Do not run the pipeline in a Posit Workbench / RStudio background job.
+)
 
 # In the interactive debugger, go to where the error happened
 # and reproduce it.
